@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    background-color: black;
+}
+
+.menu {
+    color: white;
+    padding: 10px;
+}
+
+.menu:hover {
+    color: black;
+    background-color: yellow;
+}
+
+.dummy {
+    flex: 1;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.side-bar {
+    background-color: gray;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.side-menu {
+    color: white;
+}
+
+.side-menu:hover {
+    color: black;
+}

@@ -1,0 +1,45 @@
+.container {
+    /* 자식들을 flex element로 만든다. */
+    display:flex;
+    background-color: black;
+}
+
+.menu:hover {
+    color: black;
+    background-color: yellow;
+}
+
+.menu {
+    color: white;
+    padding: 10px;
+}
+
+/* 중간에 더미(공간)을 주어서 양쪽으로 분활한다. */
+.dummy {
+    flex: 1;
+}
+
+.main-container {
+    margin-top: 10px;
+    display: flex;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.side-bar {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
